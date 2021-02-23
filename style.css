@@ -73,3 +73,51 @@ img {
 }
 
 /* MEDIA QUERY */
+@media screen and (max-width: 419px) {
+  /* COMMON */
+  #lezioni .row img,
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /* Sezione lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    float: none;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  /* Sezione steps*/
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  /* Sezione why */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+
+  #why .row img {
+    width: 50px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 20px
+  }
+}
